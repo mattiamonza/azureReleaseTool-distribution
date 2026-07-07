@@ -1,8 +1,8 @@
 {
-  "version": "0.2.1",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.2.1/AzureTool.exe",
-  "sha256": "d4b48fddf2c7e84a986d4810f23c7d9100a4674f9aaebf24b90d84ce2c92fb00",
-  "released_at": "2026-07-07T21:56:03Z",
+  "version": "0.3.0",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.3.0/AzureTool.exe",
+  "sha256": "8cd5d60acb5bec376df9566fff6ca920667315326647d828f7739408bcd625ac",
+  "released_at": "2026-07-07T23:12:07Z",
   "min_launcher_version": "0.1.0",
-  "notes": "fix: aggiornamento automatico ora funziona correttamente su Windows (fd mkstemp chiuso prima del rename). feat: popup Work Items pre-popola la tabella dai dati del file .txt."
+  "notes": "feat: bottone toggle Attiva/Disattiva proxy Windows (PAC script) con applicazione immediata senza reboot. Proxy disabilitato automaticamente alla chiusura."
 }

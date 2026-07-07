@@ -1,8 +1,8 @@
 {
-  "version": "0.1.1",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.1.1/AzureTool.exe",
-  "sha256": "8a2ebce84352dc421f313dcae4b5463209a16fb60ced4a16b55f715d358ac149",
-  "released_at": "2026-07-07T16:29:54Z",
+  "version": "0.2.0",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.2.0/AzureTool.exe",
+  "sha256": "ce0ab82aea2e18dc23c28010f96b86ddb8d6f978cda6a4ee9d1f751ab329cefc",
+  "released_at": "2026-07-07T21:32:14Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Bugfix: launcher.exe ora avvia correttamente AzureTool.exe su Windows."
+  "notes": "feat: popup Work Items mostra automaticamente tutti i dati (Tipo, ID, Descrizione) gia caricati dal file .txt, senza richiedere una nuova chiamata ad Azure."
 }

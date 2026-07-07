@@ -1,8 +1,8 @@
 {
-  "version": "0.2.0",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.2.0/AzureTool.exe",
-  "sha256": "ce0ab82aea2e18dc23c28010f96b86ddb8d6f978cda6a4ee9d1f751ab329cefc",
-  "released_at": "2026-07-07T21:32:14Z",
+  "version": "0.2.1",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.2.1/AzureTool.exe",
+  "sha256": "d4b48fddf2c7e84a986d4810f23c7d9100a4674f9aaebf24b90d84ce2c92fb00",
+  "released_at": "2026-07-07T21:56:03Z",
   "min_launcher_version": "0.1.0",
-  "notes": "feat: popup Work Items mostra automaticamente tutti i dati (Tipo, ID, Descrizione) gia caricati dal file .txt, senza richiedere una nuova chiamata ad Azure."
+  "notes": "fix: aggiornamento automatico ora funziona correttamente su Windows (fd mkstemp chiuso prima del rename). feat: popup Work Items pre-popola la tabella dai dati del file .txt."
 }

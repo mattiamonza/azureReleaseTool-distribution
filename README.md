@@ -4,54 +4,83 @@ Tool desktop per la generazione automatica dei log di rilascio su **Azure DevOps
 
 ---
 
-## 📥 Installazione
+## 📥 Installazione — Guida passo passo
 
-1. Vai alla pagina [**Releases**](https://github.com/mattiamonza/azureReleaseTool-distribution/releases/latest)
-2. Scarica:
-   - `launcher.exe` — avviatore principale (usato ogni volta)
-   - `AzureTool.exe` — applicazione (aggiornata automaticamente dal launcher)
-3. Metti entrambi i file nella **stessa cartella**
+> ✅ **Nessuna installazione richiesta.** Bastano due file `.exe` nella stessa cartella.
 
-> Non è richiesta nessuna installazione aggiuntiva.
+### Passo 1 — Scarica i file
 
----
+Vai alla pagina **[Releases → Latest](https://github.com/mattiamonza/azureReleaseTool-distribution/releases/latest)** e scarica:
 
-## ▶️ Avvio
+| File | Descrizione |
+|------|-------------|
+| `launcher.exe` | **Avviatore principale** — è il file da usare ogni volta |
+| `AzureTool.exe` | Applicazione vera e propria |
+
+### Passo 2 — Crea una cartella dedicata
+
+Crea una cartella a tua scelta, ad esempio:
+```
+C:\Tools\AzureReleaseTool\
+```
+o anche sul Desktop o in Documenti — la posizione non ha importanza.
+
+### Passo 3 — Metti entrambi i file nella stessa cartella
+
+```
+C:\Tools\AzureReleaseTool\
+├── launcher.exe      ← scaricato dalla pagina Releases
+└── AzureTool.exe     ← scaricato dalla pagina Releases
+```
+
+> ⚠️ **Importante**: i due file devono trovarsi **nella stessa cartella**. Se li separi, il launcher non trova l'applicazione.
+
+### Passo 4 — Avvia l'applicazione
 
 Fai **doppio click su `launcher.exe`**.
 
-Il launcher:
+L'applicazione si apre. Hai finito.
+
+---
+
+## ▶️ Come avviare l'applicazione
+
+Usa **sempre `launcher.exe`**, non `AzureTool.exe` direttamente.
+
+Ad ogni avvio il launcher:
 1. Controlla se è disponibile una versione più recente
-2. Se sì, scarica e verifica automaticamente `AzureTool.exe` (SHA256)
+2. Se sì, scarica e installa automaticamente `AzureTool.exe`
 3. Avvia l'applicazione
 
-> ⚠️ Avvia sempre `launcher.exe`, non `AzureTool.exe` direttamente, per ricevere gli aggiornamenti automatici.
+> Se avvii `AzureTool.exe` direttamente, l'applicazione funziona ma **non riceverai aggiornamenti automatici**.
 
 ---
 
 ## 🔄 Aggiornamenti automatici
 
-Il launcher controlla gli aggiornamenti ad ogni avvio confrontando la versione locale con il [manifest pubblico](https://raw.githubusercontent.com/mattiamonza/azureReleaseTool-distribution/main/version.json).
+Gli aggiornamenti avvengono **in modo completamente automatico** ad ogni avvio del launcher:
 
-Se è disponibile una nuova versione:
-- Viene scaricata automaticamente in background
-- Il checksum SHA256 viene verificato prima dell'installazione
-- Una copia di backup del vecchio eseguibile viene mantenuta (`.bak`)
+- Non devi fare nulla
+- Il launcher scarica il nuovo `AzureTool.exe`, ne verifica l'integrità (SHA256) e lo sostituisce
+- Una copia di backup del vecchio eseguibile viene mantenuta (file `.bak` nella stessa cartella)
 
-Non è necessaria nessuna azione manuale.
+### ⚠️ Nota sul launcher stesso
+
+Il `launcher.exe` **non si auto-aggiorna**: aggiorna solo `AzureTool.exe`.
+
+Se ricevi comunicazione di una nuova versione del launcher, dovrai scaricare manualmente il nuovo `launcher.exe` dalla pagina Releases e sostituire quello esistente nella tua cartella. Questo evento è raro.
 
 ---
 
-## ✅ Verifica integrità file
+## ✅ Verifica integrità file (opzionale)
 
-Per verificare manualmente l'integrità di `AzureTool.exe` prima dell'avvio:
+Per verificare che il file scaricato sia autentico, apri **PowerShell** nella cartella di installazione ed esegui:
 
 ```powershell
-# PowerShell
 Get-FileHash .\AzureTool.exe -Algorithm SHA256
 ```
 
-Confronta il risultato con il campo `sha256` nel file [version.json](./version.json) della release corrispondente.
+Confronta il risultato con il campo `sha256` nel file [version.json](./version.json).
 
 ---
 
@@ -59,24 +88,26 @@ Confronta il risultato con il campo `sha256` nel file [version.json](./version.j
 
 | Campo | Valore |
 |-------|--------|
-| Versione | `0.2.0` |
-| SHA256 AzureTool.exe | `ce0ab82aea2e18dc23c28010f96b86ddb8d6f978cda6a4ee9d1f751ab329cefc` |
-| Data rilascio | 2026-07-07 |
+| Versione | `0.2.1` |
+| SHA256 AzureTool.exe | `d4b48fddf2c7e84a986d4810f23c7d9100a4674f9aaebf24b90d84ce2c92fb00` |
+| Data rilascio | 2026-07-08 |
 
 ---
 
-## 🗂️ Dati applicazione
+## 🗂️ Dove vengono salvati i dati
 
-I file di configurazione e i log vengono salvati in:
+L'applicazione salva automaticamente configurazione, credenziali e log in:
 
 ```
 %LOCALAPPDATA%\AzureTool\
-├── settings.json     # impostazioni applicazione
-├── credentials.json  # credenziali cifrate (DPAPI)
-├── logs\             # log giornalieri
-├── cache\            # download temporanei
-└── download\         # file scaricati
+├── settings.json      # impostazioni applicazione
+├── credentials.json   # credenziali cifrate (Windows DPAPI)
+├── logs\              # log giornalieri con rotazione automatica
+├── cache\             # file temporanei durante aggiornamenti
+└── download\          # file scaricati
 ```
+
+Puoi aprire questa cartella digitando `%LOCALAPPDATA%\AzureTool` nella barra degli indirizzi di Esplora File.
 
 ---
 

@@ -1,8 +1,8 @@
 {
-  "version": "0.3.0",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.3.0/AzureTool.exe",
-  "sha256": "8cd5d60acb5bec376df9566fff6ca920667315326647d828f7739408bcd625ac",
-  "released_at": "2026-07-07T23:12:07Z",
+  "version": "0.3.1",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.3.1/AzureTool.exe",
+  "sha256": "5f5d961fd025c3b37dd4aa8b0a159729c66f81c3b8e6b413eb0d1ca0a771dcce",
+  "released_at": "2026-07-07T23:21:24Z",
   "min_launcher_version": "0.1.0",
-  "notes": "feat: bottone toggle Attiva/Disattiva proxy Windows (PAC script) con applicazione immediata senza reboot. Proxy disabilitato automaticamente alla chiusura."
+  "notes": "feat: label versione in header mostra versione reale e stato aggiornamenti (verde=aggiornato, arancione=aggiornamento disponibile)."
 }

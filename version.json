@@ -1,8 +1,8 @@
 {
-  "version": "0.1.0",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.1.0/AzureTool.exe",
-  "sha256": "51369ba27300727a5472cd9a26cec47200cbd1fe4e7c9b3c47628710ee1769e2",
-  "released_at": "2026-07-07T12:26:22Z",
+  "version": "0.1.1",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.1.1/AzureTool.exe",
+  "sha256": "8a2ebce84352dc421f313dcae4b5463209a16fb60ced4a16b55f715d358ac149",
+  "released_at": "2026-07-07T16:29:54Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Initial modular architecture baseline with launcher/auth/settings/logging modules."
+  "notes": "Bugfix: launcher.exe ora avvia correttamente AzureTool.exe su Windows."
 }

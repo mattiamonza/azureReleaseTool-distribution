@@ -1,8 +1,8 @@
 {
-  "version": "0.3.2",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.3.2/AzureTool.exe",
-  "sha256": "d7cf6b57dd35c75ac318731984e69b41c8aae54191d054112dace36edcd592a7",
-  "released_at": "2026-07-08T06:59:21Z",
+  "version": "0.4.0",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.4.0/AzureTool.exe",
+  "sha256": "9c145605712950698a935b2794637acfb1f90492ef54850abd2c8fa68b410013",
+  "released_at": "2026-07-08T07:30:49Z",
   "min_launcher_version": "0.1.0",
-  "notes": "fix: cerchio colorato nel label versione header."
+  "notes": "refactor: nuova sezione Dati Azure DevOps, Cartella base ADO in Parametri Generali, rimossa sezione Credenziali step2."
 }

@@ -1,8 +1,8 @@
 {
-  "version": "0.3.1",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.3.1/AzureTool.exe",
-  "sha256": "5f5d961fd025c3b37dd4aa8b0a159729c66f81c3b8e6b413eb0d1ca0a771dcce",
-  "released_at": "2026-07-07T23:21:24Z",
+  "version": "0.3.2",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.3.2/AzureTool.exe",
+  "sha256": "d7cf6b57dd35c75ac318731984e69b41c8aae54191d054112dace36edcd592a7",
+  "released_at": "2026-07-08T06:59:21Z",
   "min_launcher_version": "0.1.0",
-  "notes": "feat: label versione in header mostra versione reale e stato aggiornamenti (verde=aggiornato, arancione=aggiornamento disponibile)."
+  "notes": "fix: cerchio colorato nel label versione header."
 }

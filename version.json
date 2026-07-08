@@ -1,8 +1,8 @@
 {
-  "version": "0.4.0",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.4.0/AzureTool.exe",
-  "sha256": "9c145605712950698a935b2794637acfb1f90492ef54850abd2c8fa68b410013",
-  "released_at": "2026-07-08T07:30:49Z",
+  "version": "0.4.1",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.4.1/AzureTool.exe",
+  "sha256": "15ce1ec01ad34145e5a3f42fb591311596b09d08ace0bc5bf1c341d64c0769e2",
+  "released_at": "2026-07-08T07:55:13Z",
   "min_launcher_version": "0.1.0",
-  "notes": "refactor: nuova sezione Dati Azure DevOps, Cartella base ADO in Parametri Generali, rimossa sezione Credenziali step2."
+  "notes": "feat: launcher splash window con feedback visivo aggiornamento."
 }

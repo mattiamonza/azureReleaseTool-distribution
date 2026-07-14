@@ -88,8 +88,8 @@ Confronta il risultato con il campo `sha256` nel file [version.json](./version.j
 
 | Campo | Valore |
 |-------|--------|
-| Versione | `1.0.3` |
-| SHA256 AzureReleaseTool.exe | `e5d0aa254082852a70e1471923b7bf83ff2d2d886e2bf46725a84753db8dbc37` |
+| Versione | `1.0.4` |
+| SHA256 AzureReleaseTool.exe | `57ddc738f4002962023f771baeb98d0b737bd34aac4e6e2f1bc17f1c28ae1206` |
 | Data rilascio | 2026-07-14 |
 
 ---

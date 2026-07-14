@@ -4,5 +4,5 @@
   "sha256": "0973f874194788eedeb8318150174bc57b15eec045e82f8385a1cb4215987b3d",
   "released_at": "2026-07-14T09:27:19Z",
   "min_launcher_version": "0.1.0",
-  "notes": "feat: launcher splash window con feedback visivo aggiornamento."
+  "notes": "harden: command execution sicura, anti-race async e cleanup legacy proxy."
 }

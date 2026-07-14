@@ -1,8 +1,8 @@
 {
-  "version": "0.5.1",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v0.5.1/AzureReleaseTool.exe",
-  "sha256": "f46e026c88ef7eeb77c4c43349fe4682da383988f539455528a94fba11f9033d",
-  "released_at": "2026-07-14T08:03:07Z",
+  "version": "1.0.0",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.0/AzureReleaseTool.exe",
+  "sha256": "0973f874194788eedeb8318150174bc57b15eec045e82f8385a1cb4215987b3d",
+  "released_at": "2026-07-14T09:27:19Z",
   "min_launcher_version": "0.1.0",
   "notes": "feat: launcher splash window con feedback visivo aggiornamento."
 }

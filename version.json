@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.5/AzureReleaseTool.exe",
-  "sha256": "20d8b0f2b9516f98d70437c77282c77422b462ef42f71c14af62c8d3b13b1dc0",
-  "released_at": "2026-07-14T15:58:47Z",
+  "version": "1.0.6",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.6/AzureReleaseTool.exe",
+  "sha256": "ee859620aa278b2acf17e14d407f95bc61d0186216eaf846ab2e4fed009a9b4f",
+  "released_at": "2026-07-14T16:19:22Z",
   "min_launcher_version": "0.1.0",
-  "notes": "fix: esecuzione robusta di az.cmd con path assoluto (Download e Publish funzionanti su Windows)."
+  "notes": "fix: nessuna finestra cmd durante Download/Publish e riduzione warning _MEI in uscita."
 }

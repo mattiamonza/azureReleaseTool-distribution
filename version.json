@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.1/AzureReleaseTool.exe",
-  "sha256": "8d05c4845e9a1e855d11f03ea137e1cdf38c634ba7c25f73dae69bfa37db65ef",
-  "released_at": "2026-07-14T11:04:07Z",
+  "version": "1.0.2",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.2/AzureReleaseTool.exe",
+  "sha256": "7717447359667bc4ef18f1245fe61c8cb6cf661786666d02201cff7bbe4c303e",
+  "released_at": "2026-07-14T12:48:47Z",
   "min_launcher_version": "0.1.0",
-  "notes": "harden: command execution sicura, anti-race async e cleanup legacy proxy."
+  "notes": "ui: icona custom applicata a launcher, tool e build degli eseguibili."
 }

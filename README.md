@@ -88,9 +88,9 @@ Confronta il risultato con il campo `sha256` nel file [version.json](./version.j
 
 | Campo | Valore |
 |-------|--------|
-| Versione | `0.2.1` |
-| SHA256 AzureReleaseTool.exe | `d4b48fddf2c7e84a986d4810f23c7d9100a4674f9aaebf24b90d84ce2c92fb00` |
-| Data rilascio | 2026-07-08 |
+| Versione | `1.0.0` |
+| SHA256 AzureReleaseTool.exe | `0973f874194788eedeb8318150174bc57b15eec045e82f8385a1cb4215987b3d` |
+| Data rilascio | 2026-07-14 |
 
 ---
 
@@ -99,7 +99,7 @@ Confronta il risultato con il campo `sha256` nel file [version.json](./version.j
 L'applicazione salva automaticamente configurazione, credenziali e log in:
 
 ```
-%LOCALAPPDATA%\AzureTool\
+%LOCALAPPDATA%\AzureReleaseTool\
 ├── settings.json      # impostazioni applicazione
 ├── credentials.json   # credenziali cifrate (Windows DPAPI)
 ├── logs\              # log giornalieri con rotazione automatica
@@ -107,7 +107,7 @@ L'applicazione salva automaticamente configurazione, credenziali e log in:
 └── download\          # file scaricati
 ```
 
-Puoi aprire questa cartella digitando `%LOCALAPPDATA%\AzureTool` nella barra degli indirizzi di Esplora File.
+Puoi aprire questa cartella digitando `%LOCALAPPDATA%\AzureReleaseTool` nella barra degli indirizzi di Esplora File.
 
 ---
 

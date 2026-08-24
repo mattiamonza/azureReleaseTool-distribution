@@ -1,8 +1,8 @@
 {
-  "version": "1.0.9",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.9/AzureReleaseTool.exe",
-  "sha256": "5b49a9fd36b50c95a62bceff35cb13cda21552879fb93b918c7c4ebc67436385",
-  "released_at": "2026-08-24T13:12:09Z",
+  "version": "1.0.10",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.10/AzureReleaseTool.exe",
+  "sha256": "f19ebedfb8f6633c14b00d390e9282adc10ae74721014808dc9be99a991014d9",
+  "released_at": "2026-08-24T13:41:29Z",
   "min_launcher_version": "0.1.0",
   "notes": "ui: icona ufficiale AzureReleaseTool applicata agli exe e resa migliorata nelle dimensioni piccole."
 }

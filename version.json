@@ -1,8 +1,8 @@
 {
-  "version": "1.0.10",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.10/AzureReleaseTool.exe",
-  "sha256": "f19ebedfb8f6633c14b00d390e9282adc10ae74721014808dc9be99a991014d9",
-  "released_at": "2026-08-24T13:41:29Z",
+  "version": "1.0.11",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.11/AzureReleaseTool.exe",
+  "sha256": "a0d3c66553df2cf48da62896bdf7c015046f8d5b6b469147f149108518c0b1c8",
+  "released_at": "2026-08-25T07:54:31Z",
   "min_launcher_version": "0.1.0",
-  "notes": "ui: icona ufficiale AzureReleaseTool applicata agli exe e resa migliorata nelle dimensioni piccole."
+  "notes": "step2: login Azure CLI eseguito dopo bootstrap proxy VPN con core.login_experience_v2=off e blocco esplicito dei flussi publish/download in caso di errore."
 }

@@ -1,8 +1,8 @@
 {
-  "version": "1.0.17",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.17/AzureReleaseTool.exe",
-  "sha256": "50cf4d19213da345dca649f03804463cff82da9d0751ce435e8ebdcb3d5201f5",
-  "released_at": "2026-10-09T14:37:28Z",
+  "version": "1.0.18",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.18/AzureReleaseTool.exe",
+  "sha256": "5bf5b1af3c01f9e9b51dfbd3f40bf550d24d74841bfb1e191756254dcd46d62f",
+  "released_at": "2026-10-09T15:03:22Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Alla chiusura viene disconnessa la VPN FortiClient, terminato FortiClient e disattivato il proxy Windows."
+  "notes": "Copia Work Items selezionati in formato tabulato per incollarli nelle celle di una tabella Word."
 }

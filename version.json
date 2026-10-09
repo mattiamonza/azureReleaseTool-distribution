@@ -1,8 +1,8 @@
 {
-  "version": "1.0.15",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.15/AzureReleaseTool.exe",
-  "sha256": "e51f5e018ceba749327ed0fe7f4c44411d754009460ccdd9142b36b890f14d46",
-  "released_at": "2026-10-09T08:55:33Z",
+  "version": "1.0.16",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.16/AzureReleaseTool.exe",
+  "sha256": "947f3b3492f8c91477f42ff3ec4f1a396567dd85d37c5d4936d837b96c4c07ae",
+  "released_at": "2026-10-09T13:49:31Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Cambio Sprint: verifica delle modifiche non salvate nel log, richiesta salva/scarta/annulla e reset dei dati release Step 1/2."
+  "notes": "Popup e finestre di dialogo seguono la finestra principale anche su monitor secondari."
 }

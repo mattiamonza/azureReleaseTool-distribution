@@ -1,8 +1,8 @@
 {
-  "version": "1.0.14",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.14/AzureReleaseTool.exe",
-  "sha256": "da7351d8c5b424997805fa137fa61c30796d82ccecbb2e07ebd6440475632f3e",
-  "released_at": "2026-10-02T16:27:26Z",
+  "version": "1.0.15",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.15/AzureReleaseTool.exe",
+  "sha256": "e51f5e018ceba749327ed0fe7f4c44411d754009460ccdd9142b36b890f14d46",
+  "released_at": "2026-10-09T08:55:33Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Work Items aggiuntivi: verifica Area e Iteration rispetto a Progetto e Feed, segnalazione anomalie con assegnatario e conferma manuale prima dell'accettazione."
+  "notes": "Cambio Sprint: verifica delle modifiche non salvate nel log, richiesta salva/scarta/annulla e reset dei dati release Step 1/2."
 }

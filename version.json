@@ -1,8 +1,8 @@
 {
-  "version": "1.0.18",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.18/AzureReleaseTool.exe",
-  "sha256": "5bf5b1af3c01f9e9b51dfbd3f40bf550d24d74841bfb1e191756254dcd46d62f",
-  "released_at": "2026-10-09T15:03:22Z",
+  "version": "1.0.19",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.19/AzureReleaseTool.exe",
+  "sha256": "fcaff9206f75360ee6227107465b74524bfa0dad530ca8c1c341790d53f554be",
+  "released_at": "2026-10-20T08:55:16Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Copia Work Items selezionati in formato tabulato per incollarli nelle celle di una tabella Word."
+  "notes": "Corretto il blocco di Accedi dopo il cambio Sprint: richieste feed non sovrapposte, gestione proxy sul thread UI e timeout di 30 secondi."
 }

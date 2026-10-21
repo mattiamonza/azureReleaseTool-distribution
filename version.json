@@ -1,8 +1,8 @@
 {
-  "version": "1.0.21",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.21/AzureReleaseTool.exe",
-  "sha256": "af1545f78fc67d1ce6ee028934460afaa8339d63c33ce026bade86ae1ba40f8c",
-  "released_at": "2026-10-21T14:33:11Z",
+  "version": "1.0.22",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.22/AzureReleaseTool.exe",
+  "sha256": "eedf1b4b4bbd201b6f6e646dd946a7a03bc30cb7a671da45ff3be0d2bb0aecf9",
+  "released_at": "2026-10-21T15:40:26Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Corretto il fallback diretto dopo la disconnessione VPN: la richiesta non riutilizza host, tunnel HTTPS o credenziali del proxy."
+  "notes": "Username VPN FortiClient configurabile, salvata in settings.json e copiabile con il pulsante accanto ad Avvia FortiClient."
 }

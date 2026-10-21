@@ -1,8 +1,8 @@
 {
-  "version": "1.0.20",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.20/AzureReleaseTool.exe",
-  "sha256": "3ccabf487375259085b6f6dc98ea2b9250a41dc1b0a4667ea6e9e876f84e0de0",
-  "released_at": "2026-10-21T13:49:52Z",
+  "version": "1.0.21",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.21/AzureReleaseTool.exe",
+  "sha256": "af1545f78fc67d1ce6ee028934460afaa8339d63c33ce026bade86ae1ba40f8c",
+  "released_at": "2026-10-21T14:33:11Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Ripristino delle chiamate Azure dopo la disconnessione VPN: fallback diretto per le letture e disattivazione del proxy obsoleto, inclusi Accedi e aggiornamento feed."
+  "notes": "Corretto il fallback diretto dopo la disconnessione VPN: la richiesta non riutilizza host, tunnel HTTPS o credenziali del proxy."
 }

@@ -1,8 +1,8 @@
 {
-  "version": "1.0.23",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.23/AzureReleaseTool.exe",
-  "sha256": "832130cf161291ffe574fbd0e38b3d5947e2e65016cdff0bb64664bc54dfbb25",
-  "released_at": "2026-10-22T09:22:19Z",
+  "version": "1.0.24",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.24/AzureReleaseTool.exe",
+  "sha256": "fde3e29abf0788fe55f3ac4dca205b1c6d6628194e05cf41f6658c3c0ff93fe1",
+  "released_at": "2026-10-22T09:47:14Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Cancella lista Work Items, gestione compatta username VPN, recupero automatico svuotando Versione e conferma delle impostazioni non salvate alla chiusura."
+  "notes": "Aggiornata l'indicazione della password VPN: recuperabile tramite PingID app."
 }

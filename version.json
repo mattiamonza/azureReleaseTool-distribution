@@ -1,8 +1,8 @@
 {
-  "version": "1.0.24",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.24/AzureReleaseTool.exe",
-  "sha256": "fde3e29abf0788fe55f3ac4dca205b1c6d6628194e05cf41f6658c3c0ff93fe1",
-  "released_at": "2026-10-22T09:47:14Z",
+  "version": "1.0.25",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.25/AzureReleaseTool.exe",
+  "sha256": "4435ee85c82d77155d5b0f0722b8ef885e7a9fd800a9923886d933450b6e73c5",
+  "released_at": "2026-10-22T10:16:01Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Aggiornata l'indicazione della password VPN: recuperabile tramite PingID app."
+  "notes": "Corretto il posizionamento delle popup sulla finestra principale, inclusa Modifica username VPN, anche su monitor con coordinate negative."
 }

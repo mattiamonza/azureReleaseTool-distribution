@@ -1,8 +1,8 @@
 {
-  "version": "1.0.26",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.26/AzureReleaseTool.exe",
-  "sha256": "b3056dd67c9d1613a6bd97a8bdef64e58167238cd308362e83b817141c55a860",
-  "released_at": "2026-10-29T10:26:36Z",
+  "version": "1.0.27",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.27/AzureReleaseTool.exe",
+  "sha256": "798a923a5b488fbea463c953a590d5c7062ae13285d563770bb8a92988acfb44",
+  "released_at": "2026-10-29T10:32:58Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Riorganizzati i log dello Step 2: output collassabili con Visualizza log; nota sui collegamenti Feature disponibile tramite tooltip informativo."
+  "notes": "Corretto l'aggiornamento: il launcher ripristina l'app quando il checksum locale non coincide, anche se la versione del launcher è uguale a quella del manifest."
 }

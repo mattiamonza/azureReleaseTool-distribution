@@ -1,8 +1,8 @@
 {
-  "version": "1.0.30",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.30/AzureReleaseTool.exe",
-  "sha256": "d953648430d1c98569eed80ed880be4cd29cd6689b32b1cfe45fe885e93064fa",
-  "released_at": "2026-10-30T12:13:30Z",
+  "version": "1.0.31",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.31/AzureReleaseTool.exe",
+  "sha256": "635ad75a521e5635dbb998e3898bb8594a42076b0029dc3822df4589246a076a",
+  "released_at": "2026-10-30T15:28:54Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Migliorata l'affidabilità: errori Azure distinti dai nuovi pacchetti, aggiornamento senza rimozione preventiva dell'app e riepilogo comandi con esiti parziali."
+  "notes": "Migliorie di affidabilità per Publish, retry selettivi e richieste Azure; pannello connessioni, bozza di release sicura, esportazione diagnostica e configurazione atomica."
 }

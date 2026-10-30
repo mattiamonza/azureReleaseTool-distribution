@@ -1,8 +1,8 @@
 {
-  "version": "1.0.31",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.31/AzureReleaseTool.exe",
-  "sha256": "635ad75a521e5635dbb998e3898bb8594a42076b0029dc3822df4589246a076a",
-  "released_at": "2026-10-30T15:28:54Z",
+  "version": "1.0.32",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.32/AzureReleaseTool.exe",
+  "sha256": "4cdcd634345dd40eaa27d053df7cbb8d732f8b77eebd4833469c3a34e75f58f3",
+  "released_at": "2026-10-30T16:42:59Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Migliorie di affidabilità per Publish, retry selettivi e richieste Azure; pannello connessioni, bozza di release sicura, esportazione diagnostica e configurazione atomica."
+  "notes": "Migliorie di affidabilità per Publish, retry selettivi e richieste Azure; pannello connessioni, bozza di release sicura, esportazione diagnostica e configurazione atomica. Stato VPN e Azure CLI aggiornato automaticamente alla disconnessione FortiClient."
 }

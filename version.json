@@ -1,8 +1,8 @@
 {
-  "version": "1.0.29",
-  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.29/AzureReleaseTool.exe",
-  "sha256": "24bc18221a4a5f4847946ff5f032345a39f5b5344e9cb857636f96d2858c0481",
-  "released_at": "2026-10-29T13:20:55Z",
+  "version": "1.0.30",
+  "asset_url": "https://github.com/mattiamonza/azureReleaseTool-distribution/releases/download/v1.0.30/AzureReleaseTool.exe",
+  "sha256": "d953648430d1c98569eed80ed880be4cd29cd6689b32b1cfe45fe885e93064fa",
+  "released_at": "2026-10-30T12:13:30Z",
   "min_launcher_version": "0.1.0",
-  "notes": "Rinominata la sezione in Aggiorna Link RIL su Azure, con titolo allineato allo stile delle altre sezioni e tooltip informativo mantenuto."
+  "notes": "Migliorata l'affidabilità: errori Azure distinti dai nuovi pacchetti, aggiornamento senza rimozione preventiva dell'app e riepilogo comandi con esiti parziali."
 }
